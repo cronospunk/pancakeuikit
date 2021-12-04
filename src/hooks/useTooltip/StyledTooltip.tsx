@@ -13,7 +13,7 @@ export const Arrow = styled.div`
 	&::before {
 		content: "";
 		transform: rotate(45deg);
-		background: "grey";
+		background: "white";
 	}
 `;
 
@@ -24,8 +24,8 @@ export const StyledTooltip = styled.div`
 	border-radius: 16px;
 	max-width: 320px;
 	z-index: 101;
-	background: "grey";
-	color: "white";
+	background: "white";
+	color: "black";
 	box-shadow: 0px 20px 36px -8px rgba(14, 14, 44, 0.1),
 		0px 1px 1px rgba(0, 0, 0, 0.05);
 
